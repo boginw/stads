@@ -7,8 +7,9 @@ Toolcase for AAU's STADS system
 Make sure you have Python 3 and `pip` installed. I would recommend starting a `virtualenv` ([install guide](https://virtualenv.pypa.io/en/stable/installation.html)). Now, running the next commands will start your virtual environment, and install all the dependencies.
 
 ```bash
+virtualenv .
 source bin/activate
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 To exit the environment, simply type `deactivate`. The next section describes the main tools of this library. To run them, simply type `python3 stads_*`, where `*` is the toolname. See the [Configuration](#configuration) section in order to provide the credentials for STADS and AWS.
